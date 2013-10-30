@@ -1,0 +1,668 @@
+<?xml version="1.0"?>
+<ASF_Service_ResponseVO typesig="155c0afe34b" id="1">
+	<service type="String">RiskNewVentures</service>
+	<operation type="String">GetIDIVmr</operation>
+	<requested_version type="String">1.0</requested_version>
+	<actual_version type="String">1.0</actual_version>
+	<result typesig="37c3eb6b129ea685" type="risk::idi::GetIDIVmrResponse"
+		id="2">
+		<return_code type="int">0</return_code>
+		<return_msg type="String">Operation Completed Successfully.
+		</return_msg>
+		<vmr_objects repeating="true" type="risk::idi::IDIObjectVO">
+			<item typesig="9e2ee91215726" type="risk::idi::IDIObjectVO" id="3">
+				<vmr_id type="String">DysonVariableGroup</vmr_id>
+				<status type="int">0</status>
+				<items repeating="true" type="risk::idi::IDITupleVO">
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="4">
+						<name type="String">dyson_sender_acct_conf_version</name>
+						<value type="String">1234</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="5">
+						<name type="String">dyson_acct_sim_serial_number</name>
+						<value type="String">jTKgArTokAkAzO-LRXrAxZdzlGJHfn</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="6">
+						<name type="String">dyson_device_login_last_time_used</name>
+						<value type="String">1382558002907</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="7">
+						<name type="String">dyson_sender_acct_email_configured</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="8">
+						<name type="String">dyson_acct_cell_id</name>
+						<value type="String">81218</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="9">
+						<name type="String">dyson_acct_roaming</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="10">
+						<name type="String">dyson_sender_acct_device_name</name>
+						<value type="String">JDwPZpTaMzYkbsQEaqfNmBRGqrSETh</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="11">
+						<name type="String">dyson_sender_acct_loc_timestamp</name>
+						<value type="String">5733923918</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="12">
+						<name type="String">dyson_acct_payload_type</name>
+						<value type="String">abcd</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="13">
+						<name type="String">dyson_device_login_count_time_last_day</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="14">
+						<name type="String">dyson_sender_acct_bssid</name>
+						<value type="String">lmQyFDjdkLqkxPXRkedRGionCrI-gj</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="15">
+						<name type="String">dyson_acct_device_id</name>
+						<value type="String">mHjDlTHESF-yKgXwbka-rvONhCvMsp</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="16">
+						<name type="String">dyson_sender_acct_sim_operator_name</name>
+						<value type="String">noJJprkMIxVIeUvyUkEpBbZdlmhpMa</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="17">
+						<name type="String">dyson_acct_notif_token</name>
+						<value type="String">GKlHniqjyavYUWzwAjspCwAQLDyvcB</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="18">
+						<name type="String">dyson_sender_acct_location_auth_status</name>
+						<value type="String">2</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="19">
+						<name type="String">dyson_acct_longitude</name>
+						<value type="String">117.877941</value>
+						<type type="String">double</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="20">
+						<name type="String">dyson_acct_mac_addrs</name>
+						<value type="String">GXiiHTVtsgNmwpOtijOzGEASYqogP-</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="21">
+						<name type="String">dyson_sender_acct_app_guid</name>
+						<value type="String">123456</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="22">
+						<name type="String">dyson_acct_is_rooted</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="23">
+						<name type="String">dyson_sender_acct_device_uptime</name>
+						<value type="String">123456</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="24">
+						<name type="String">dyson_sender_acct_known_apps</name>
+						<value type="String">[I&amp;{&gt;YD`中k, vZ`7Na`jQ, .[?[Xtp, ^MjXj]
+						</value>
+						<type type="String">arraylist</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="25">
+						<name type="String">dyson_acct_latitude</name>
+						<value type="String">722.882154</value>
+						<type type="String">double</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="26">
+						<name type="String">dyson_acct_known_apps</name>
+						<value type="String">[I&amp;{&gt;YD`中k, vZ`7Na`jQ, .[?[Xtp, ^MjXj]
+						</value>
+						<type type="String">arraylist</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="27">
+						<name type="String">dyson_sender_acct_vendor_identifier</name>
+						<value type="String">abdcdfwe$%</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="28">
+						<name type="String">dyson_sender_device_login_total_count</name>
+						<value type="String">8</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="29">
+						<name type="String">dyson_sender_acct_app_id</name>
+						<value type="String">59508A9E-D615-4A32-89F4-F8538AD1BFF7</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="30">
+						<name type="String">dyson_sender_acct_line_1_number</name>
+						<value type="String">YcrvGTOLCOcLzMEYXgMwfLHZedKMBB</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="31">
+						<name type="String">dyson_acct_app_id</name>
+						<value type="String">59508A9E-D615-4A32-89F4-F8538AD1BFF7</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="32">
+						<name type="String">dyson_device_login_first_time_used</name>
+						<value type="String">1382558002900</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="33">
+						<name type="String">dyson_sender_acct_device_model</name>
+						<value type="String"></value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="34">
+						<name type="String">dyson_acct_ssid</name>
+						<value type="String">KBwiLxdLVC-IVrKvHCgkvnKbseUnjU</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="35">
+						<name type="String">dyson_sender_device_app_trust_score</name>
+						<value type="String">NULL</value>
+						<type type="String">nullvalue</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="36">
+						<name type="String">dyson_sender_device_app_binding_acct</name>
+						<value type="String">NULL</value>
+						<type type="String">nullvalue</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="37">
+						<name type="String">dyson_acct_loc_timestamp</name>
+						<value type="String">5733923918</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="38">
+						<name type="String">dyson_acct_sms_enabled</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="39">
+						<name type="String">dyson_acct_bssid</name>
+						<value type="String">lmQyFDjdkLqkxPXRkedRGionCrI-gj</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="40">
+						<name type="String">dyson_acct_sim_operator_name</name>
+						<value type="String">noJJprkMIxVIeUvyUkEpBbZdlmhpMa</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="41">
+						<name type="String">dyson_acct_ip_addrs</name>
+						<value type="String">ypHmrmbWfrgjTqlOJQLIbTsfSQTkip</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="42">
+						<name type="String">dyson_sender_acct_cell_id</name>
+						<value type="String">81218</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="43">
+						<name type="String">dyson_sender_acct_roaming</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="44">
+						<name type="String">dyson_acct_remote_ip_addrs</name>
+						<value type="String">645wyear23%^</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="45">
+						<name type="String">dyson_sender_acct_loc_accuracy</name>
+						<value type="String">3974281952.000000</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="46">
+						<name type="String">dyson_sender_device_login_count_time_last_day
+						</name>
+						<value type="String">7</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="47">
+						<name type="String">dyson_acct_network_operator</name>
+						<value type="String">812</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="48">
+						<name type="String">dyson_sender_device_login_count_time_last_hour
+						</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="49">
+						<name type="String">dyson_sender_acct_cdma_system_id</name>
+						<value type="String">964</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="50">
+						<name type="String">dyson_sender_acct_notif_token</name>
+						<value type="String">GKlHniqjyavYUWzwAjspCwAQLDyvcB</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="51">
+						<name type="String">dyson_acct_device_uptime</name>
+						<value type="String">123456</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="52">
+						<name type="String">dyson_sender_acct_risk_comp_session_id</name>
+						<value type="String">jqxPefKwWZqLSrICGJxAwAFdmoYQNr</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="53">
+						<name type="String">dyson_acct_cdma_system_id</name>
+						<value type="String">964</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="54">
+						<name type="String">dyson_sender_acct_linker_id</name>
+						<value type="String">%YS$7-PS#a[[8nDO文mB0xmx%O_7Hf+</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="55">
+						<name type="String">dyson_sender_device_login_count_time_last_week
+						</name>
+						<value type="String">8</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="56">
+						<name type="String">dyson_acct_comp_version</name>
+						<value type="String">1237</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="57">
+						<name type="String">dyson_acct_vendor_identifier</name>
+						<value type="String">abdcdfwe$%</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="58">
+						<name type="String">dyson_acct_line_1_number</name>
+						<value type="String">YcrvGTOLCOcLzMEYXgMwfLHZedKMBB</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="59">
+						<name type="String">dyson_acct_total_storage_space</name>
+						<value type="String">98</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="60">
+						<name type="String">dyson_acct_is_emulator</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="61">
+						<name type="String">dyson_acct_conf_version</name>
+						<value type="String">1234</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="62">
+						<name type="String">dyson_sender_device_login_first_time_used</name>
+						<value type="String">1382558002900</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="63">
+						<name type="String">dyson_acct_email_configured</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="64">
+						<name type="String">dyson_acct_cdma_network_id</name>
+						<value type="String">86</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="65">
+						<name type="String">dyson_acct_pin_lock_last_timestamp</name>
+						<value type="String">213892137841</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="66">
+						<name type="String">dyson_sender_acct_subscriber_id</name>
+						<value type="String">prwlpfUlfJMfFRdIOJtnnJkIsfR-mf</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="67">
+						<name type="String">dyson_sender_acct_payload_type</name>
+						<value type="String">abcd</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="68">
+						<name type="String">dyson_sender_acct_lastk_app_guid</name>
+						<value type="String">[]</value>
+						<type type="String">arraylist</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="69">
+						<name type="String">dyson_sender_device_app_trust_score_reason</name>
+						<value type="String">NULL</value>
+						<type type="String">nullvalue</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="70">
+						<name type="String">dyson_sender_acct_sms_enabled</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="71">
+						<name type="String">dyson_sender_acct_location_area_code</name>
+						<value type="String">1112</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="72">
+						<name type="String">dyson_acct_tz_name</name>
+						<value type="String">OkduvscJeNMxpmZHTMCPpnbyKLqEho</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="73">
+						<name type="String">dyson_acct_geo_country</name>
+						<value type="String">chi</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="74">
+						<name type="String">dyson_acct_location_area_code</name>
+						<value type="String">1112</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="75">
+						<name type="String">dyson_sender_acct_remote_ip_addrs</name>
+						<value type="String">645wyear23%^</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="76">
+						<name type="String">dyson_acct_event_timestamp</name>
+						<value type="String">1364456638</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="77">
+						<name type="String">dyson_sender_acct_session_id</name>
+						<value type="String">fewe434t4*(~</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="78">
+						<name type="String">dyson_acct_location_auth_status</name>
+						<value type="String">2</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="79">
+						<name type="String">dyson_acct_linker_id</name>
+						<value type="String">%YS$7-PS#a[[8nDO文mB0xmx%O_7Hf+</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="80">
+						<name type="String">dyson_acct_locale_lang</name>
+						<value type="String">FHBtFuVJZBPPuzrTIVAvFDftIkFvCX</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="81">
+						<name type="String">dyson_sender_acct_conn_type</name>
+						<value type="String">mNnbINjZVlfQLtSYCQigObNSZdpB-E</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="82">
+						<name type="String">dyson_acct_os_type</name>
+						<value type="String">TZAIlw-r</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="83">
+						<name type="String">dyson_acct_session_id</name>
+						<value type="String">fewe434t4*(~</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="84">
+						<name type="String">dyson_sender_acct_phone_type</name>
+						<value type="String"></value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="85">
+						<name type="String">dyson_acct_app_version</name>
+						<value type="String">789</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="86">
+						<name type="String">dyson_sender_acct_latitude</name>
+						<value type="String">722.882154</value>
+						<type type="String">double</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="87">
+						<name type="String">dyson_acct_app_guid</name>
+						<value type="String">123456</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="88">
+						<name type="String">dyson_acct_phone_type</name>
+						<value type="String"></value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="89">
+						<name type="String">dyson_sender_acct_sync_timestamp</name>
+						<value type="String">8452248341</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="90">
+						<name type="String">dyson_acct_sync_timestamp</name>
+						<value type="String">8452248341</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="91">
+						<name type="String">dyson_sender_acct_ssid</name>
+						<value type="String">KBwiLxdLVC-IVrKvHCgkvnKbseUnjU</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="92">
+						<name type="String">dyson_sender_acct_os_version</name>
+						<value type="String">9.8.7.</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="93">
+						<name type="String">dyson_sender_acct_total_storage_space</name>
+						<value type="String">98</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="94">
+						<name type="String">dyson_sender_acct_is_emulator</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="95">
+						<name type="String">dyson_acct_os_version</name>
+						<value type="String">9.8.7.</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="96">
+						<name type="String">dyson_acct_subscriber_id</name>
+						<value type="String">prwlpfUlfJMfFRdIOJtnnJkIsfR-mf</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="97">
+						<name type="String">dyson_sender_acct_sim_serial_number</name>
+						<value type="String">jTKgArTokAkAzO-LRXrAxZdzlGJHfn</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="98">
+						<name type="String">dyson_acct_device_model</name>
+						<value type="String"></value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="99">
+						<name type="String">dyson_acct_device_name</name>
+						<value type="String">JDwPZpTaMzYkbsQEaqfNmBRGqrSETh</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="100">
+						<name type="String">dyson_sender_acct_ip_addrs</name>
+						<value type="String">ypHmrmbWfrgjTqlOJQLIbTsfSQTkip</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="101">
+						<name type="String">dyson_sender_acct_cdma_network_id</name>
+						<value type="String">86</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="102">
+						<name type="String">dyson_sender_acct_pin_lock_last_timestamp</name>
+						<value type="String">213892137841</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="103">
+						<name type="String">dyson_sender_acct_network_operator</name>
+						<value type="String">812</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="104">
+						<name type="String">dyson_sender_acct_device_id</name>
+						<value type="String">mHjDlTHESF-yKgXwbka-rvONhCvMsp</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="105">
+						<name type="String">dyson_sender_acct_tz_name</name>
+						<value type="String">OkduvscJeNMxpmZHTMCPpnbyKLqEho</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="106">
+						<name type="String">dyson_acct_loc_accuracy</name>
+						<value type="String">3974281952.000000</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="107">
+						<name type="String">dyson_acct_conn_type</name>
+						<value type="String">mNnbINjZVlfQLtSYCQigObNSZdpB-E</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="108">
+						<name type="String">dyson_sender_acct_geo_country</name>
+						<value type="String">chi</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="109">
+						<name type="String">dyson_device_login_count_time_last_hour</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="110">
+						<name type="String">dyson_sender_acct_advertising_identifier</name>
+						<value type="String">&amp;*9897jklk</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="111">
+						<name type="String">dyson_sender_acct_longitude</name>
+						<value type="String">117.877941</value>
+						<type type="String">double</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="112">
+						<name type="String">dyson_sender_acct_comp_version</name>
+						<value type="String">1237</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="113">
+						<name type="String">dyson_sender_acct_event_timestamp</name>
+						<value type="String">1364456638</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="114">
+						<name type="String">dyson_acct_risk_comp_session_id</name>
+						<value type="String">jqxPefKwWZqLSrICGJxAwAFdmoYQNr</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="115">
+						<name type="String">dyson_acct_advertising_identifier</name>
+						<value type="String">&amp;*9897jklk</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="116">
+						<name type="String">dyson_sender_acct_mac_addrs</name>
+						<value type="String">GXiiHTVtsgNmwpOtijOzGEASYqogP-</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="117">
+						<name type="String">dyson_sender_acct_locale_lang</name>
+						<value type="String">FHBtFuVJZBPPuzrTIVAvFDftIkFvCX</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="118">
+						<name type="String">dyson_sender_acct_os_type</name>
+						<value type="String">TZAIlw-r</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="119">
+						<name type="String">dyson_sender_acct_is_rooted</name>
+						<value type="String">1</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="120">
+						<name type="String">dyson_sender_acct_locale_country</name>
+						<value type="String">JiqwpqztKXseqrtMpsoHdjPFgIreES</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="121">
+						<name type="String">dyson_sender_acct_app_version</name>
+						<value type="String">789</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="122">
+						<name type="String">dyson_device_login_total_count</name>
+						<value type="String">8</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="123">
+						<name type="String">dyson_device_login_count_time_last_week</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="124">
+						<name type="String">dyson_acct_locale_country</name>
+						<value type="String">JiqwpqztKXseqrtMpsoHdjPFgIreES</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="125">
+						<name type="String">dyson_sender_device_login_last_time_used</name>
+						<value type="String">1382558002907</value>
+						<type type="String">long</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="126">
+						<name type="String">control_group</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="127">
+						<name type="String">random_digit</name>
+						<value type="String">152</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="128">
+						<name type="String">is_challenger</name>
+						<value type="String">0</value>
+						<type type="String">int</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="129">
+						<name type="String">model_version</name>
+						<value type="String">1.0</value>
+						<type type="String">string</type>
+					</item>
+					<item typesig="3ceefaeb" type="risk::idi::IDITupleVO" id="130">
+						<name type="String">model_name</name>
+						<value type="String">DysonVariableGroup</value>
+						<type type="String">string</type>
+					</item>
+				</items>
+			</item>
+		</vmr_objects>
+		<vmr_lists repeating="true" type="risk::idi::IDIListVO">
+			<item typesig="8c0df11ef02f7577" type="risk::idi::IDIListVO" id="131">
+				<vmr_id type="String">DysonVariableGroup</vmr_id>
+				<status type="int">0</status>
+				<objects repeating="true" type="risk::idi::IDIDataSetVO"></objects>
+			</item>
+		</vmr_lists>
+	</result>
+</ASF_Service_ResponseVO>
